@@ -13,11 +13,11 @@ def getAppleMaxChange ():
     return applerounded, _change
 
 #for results
-def display (maxNumberApples,change ):
-    print(f"You can buy {maxNumberApples} and your change is {change:.2f} pesos.")
+def display (maxNumberApples,chAnge ):
+    print(f"You can buy {maxNumberApples} and your change is {chAnge:.2f} pesos.")
 
 #program
 money, price = getMoneyApple ()
-appmax, chAnge = getAppleMaxChange ()
+appmax, change = getAppleMaxChange ()
 
-display (appmax, chAnge)
+display (appmax, change)
